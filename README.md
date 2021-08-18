@@ -10,12 +10,13 @@ It must support routing and handle not found page properly.
 1. A fake API server should be setup.
     - Recommended: [json-server](https://github.com/typicode/json-server)
 
-2. The web app is setup using Typescript, React, and its commonly used library.
+2. The web app is setup using __Typescript__, React, and its commonly used library.
     - The main functionality includes:
         - Show a list of notes
         - Create a new note
         - Edit a note
         - Delete a note
+        - All actions __MUST__ communicate with the API.
     - Other functionality:
         - Support routing (When refreshed, it should stay on the same page)
         - An example of the routes:
@@ -25,7 +26,6 @@ It must support routing and handle not found page properly.
             - About page: `/about`
             - Not found page: `/sth-random`
     - The mockup is provided only as reference. The final result should look like a real web app.
-    - The data must be from the API and not hardcoded.
 
 3. There should be no CSS library/framework involved. SCSS can be used. BEM methodology is preferred.
 
