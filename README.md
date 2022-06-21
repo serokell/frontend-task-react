@@ -64,8 +64,10 @@ If you implement anything from bonus part, add this information to the README.
 
 ## Part 2: BlockChain task
 
-If you are applying for a position connected with blockchain you should additionally implement this
-task. It adds functionality to your note app which use blockchain wallet.
+This part is optional, you may skip it.
+We want you to demonstrate your ability to work with domain-specific
+libraries and understand domain-specific tasks. This part adds
+functionality to your note app which use blockchain wallet.
 
 ### Technical requirements
 
